@@ -8,6 +8,17 @@ pip install nltk
 
 pip install googletrans==4.0.0-rc1
 
+# Import Statements
+
+import re
+
+import nltk
+
+from nltk import pos_tag, word_tokenize
+
+from googletrans import Translator as LanguageTranslator
+
+
 # Usage
 A set of three functions implements the basic script function.
 
